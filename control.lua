@@ -261,7 +261,7 @@ local function build_gui(player_index)
     refs.t_main_frame_close_button = title_bar.add {
       type = "sprite-button",
       style = "frame_action_button",
-      sprite = "utility/close_white",
+      sprite = "utility/close",
       hovered_sprite = "utility/close_black",
       clicked_sprite = "utility/close_black"
     }
@@ -360,7 +360,7 @@ local function build_gui(player_index)
     local close_options_button = title_bar.add {
       type = "sprite-button",
       style = "frame_action_button",
-      sprite = "utility/close_white",
+      sprite = "utility/close",
       hovered_sprite = "utility/close_black",
       clicked_sprite = "utility/close_black"
     }
