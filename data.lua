@@ -44,7 +44,8 @@ data.raw.shortcut["t-tas-helper-toggle-gui"] = {
   action = "lua",
   localised_name = {"t-tas-helper.toggle-gui"},
   associated_control_input = "t-tas-helper-toggle-gui",
-  icon = prefix_graphics .. "cryo-chamber.png"
+  icon = prefix_graphics .. "cryo-chamber.png",
+  small_icon = prefix_graphics .. "cryo-chamber.png"
 }
 
 data.raw.shortcut["t-tas-helper-toggle-editor"] = {
@@ -54,7 +55,8 @@ data.raw.shortcut["t-tas-helper-toggle-editor"] = {
   action = "lua",
   localised_name = {"t-tas-helper.toggle-editor"},
   associated_control_input = "t-tas-helper-toggle-editor",
-  icon = prefix_graphics .. "wisdom.png"
+  icon = prefix_graphics .. "wisdom.png",
+  small_icon = prefix_graphics .. "wisdom.png"
 }
 
 data:extend({{
