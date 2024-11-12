@@ -375,7 +375,7 @@ local function build_gui(player_index)
     inside_shallow_frame.style.bottom_padding = 6
     local settings = inside_shallow_frame.add {
       type = "frame",
-      style = "bordered_frame_with_extra_side_margins",
+      style = "bordered_frame",
       direction = "vertical"
     }
     settings.style.horizontally_stretchable = true
