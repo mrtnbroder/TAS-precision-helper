@@ -3,8 +3,7 @@
         {
             "name": "System",
             "factorioPath": "C:\\Program Files\\Factorio\\bin\\x64\\factorio.exe",
-            "docsPath": "..\\..\\..\\..\\..\\Users\\theis\\OneDrive\\Skrivebord\\Factorio_1.1.68\\doc-html\\runtime-api.json",
-            "active": true
+            "docsPath": "..\\..\\..\\..\\..\\Users\\theis\\OneDrive\\Skrivebord\\Factorio_1.1.68\\doc-html\\runtime-api.json"
         }
     ],
     "Lua.diagnostics.globals": [
