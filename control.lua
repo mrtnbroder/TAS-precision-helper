@@ -380,9 +380,11 @@ local function build_gui(player_index)
     }
     settings.style.horizontally_stretchable = true
     settings.style.minimal_width = 180
+
     storage.elements = {
       settings = settings
     }
+
     settings.add {
       type = "label",
       style = "caption_label",

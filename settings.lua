@@ -1,37 +1,14 @@
+require('prototypes.defines')
+
+-- local name = "tas_precision_assist"
+-- local prefix = "__" .. name .. "__"
 local prefix = "t-tas-helper_"
 
+for _, preference in pairs(defines.constants.preferences) do
+  data.extend {preference}
+end
+
 data:extend({{
-  type = "int-setting",
-  name = "q-tasklist-size",
-  setting_type = "startup",
-  default_value = 450,
-  minimum_value = 10,
-  maximum_value = 4000,
-  order = "a0"
-}, {
-  type = "int-setting",
-  name = "q-gui-width",
-  setting_type = "startup",
-  default_value = 250,
-  minimum_value = 100,
-  maximum_value = 500,
-  order = "a1"
-}, {
-  type = "bool-setting",
-  name = "q-reload-settings-on-load",
-  setting_type = "startup",
-  default_value = false,
-  hidden = false,
-  order = "a2"
-}, {
-  type = "int-setting",
-  name = "q-scope-increment",
-  setting_type = "startup",
-  default_value = 100,
-  minimum_value = 10,
-  maximum_value = 500,
-  order = "a3"
-}, {
   type = "bool-setting",
   name = prefix .. "reachable",
   setting_type = "runtime-global",
